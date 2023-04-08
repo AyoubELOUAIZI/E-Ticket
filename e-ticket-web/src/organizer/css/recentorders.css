@@ -1,0 +1,54 @@
+.recentorders {
+    padding: 30px;
+    background-color: var(--White);
+    border-radius: 8px;
+}
+.recentorders .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 18px;
+}
+.recentorders .header span {
+    padding: 7px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+.recentorders .header span:hover {
+    background-color: var(--LighterPurple);
+}
+.recentorders .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--Purple10);
+}
+.container table {
+    width: 100%;
+}
+.container table th,
+td {
+    text-align: start;
+    border: none !important;
+    /* background-color: red; */
+    margin: 5px !important;
+    padding: 0 !important;
+    font-size: 15px;
+}
+table td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.051) !important;
+}
+ table .avatar {
+    background-color: var(--Purple30);
+    width: 30px;
+    height: 30px !important;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+}

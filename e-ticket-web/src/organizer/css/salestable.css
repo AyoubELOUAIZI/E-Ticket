@@ -1,0 +1,26 @@
+.sales-table th,
+td {
+    /* border: 1px solid black; */
+    text-align: start;
+    padding-left: 10px;
+}
+.sales-table table {
+    width: 100%;
+}
+.sales-table table td {
+    /* border-bottom: 1px solid var(--LightPurple); */
+    /* padding: 10px 0 10px 10px; */
+    /* font-size: 0.9rem; */
+    /* color: var(--Grey1); */
+    text-align: start;
+    border: none !important;
+    /* background-color: red; */
+    margin: 7px 5px !important;
+    padding: 0 !important;
+    font-size: 15px;
+}
+td span {
+    width: 30px;
+    height: 30px;
+    background-color: var(--Purple10);
+}

@@ -1,0 +1,31 @@
+.container .orga-page-content .title-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .orga-page-content .title-actions .filter-buttons {
+    background-color: var(--Grey2);
+    color: var(--Grey1);
+    border-radius: 8px;
+    display: flex;
+    overflow: hidden;
+    border: 1px solid var(--LightPurple);
+    cursor: pointer;
+}
+.container .orga-page-content .title-actions .filter-buttons .btn {
+    padding: 7px 15px;
+}
+.container .orga-page-content .title-actions .filter-buttons .active {
+    background-color: var(--White);
+}
+
+.solo-event-id-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 89px;
+    height: 34px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+} 

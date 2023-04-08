@@ -1,0 +1,18 @@
+.content-cart-page {
+    background-color: var(--White);
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 8px;
+}
+.content-cart-page-container {
+    padding: 10px 0;
+}
+.content-cart-page-container {
+    padding: 5px 0;
+    min-height: 300px;
+}
+.empty-cart {
+    margin: auto;
+    text-align: center;
+    padding: 200px;
+}
